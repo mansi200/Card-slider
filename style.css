@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.card {
+  margin-top: 200px;
+  border-right: 30px solid yellow;
+  border-radius: 1px;
+  margin-right: 0;
+}
+
+.card-body .body
+{
+  background-color: rgb(235, 242, 244);
+  margin: auto;
+ 
+}
+.new
+{
+  position: absolute;
+  
+  width: 70px;
+  color: yellow;
+  transform: rotate(-30deg);
+margin-top: 16px;
+}
+
+@media screen and (max-width:768px) {
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    border-right: none;
+  }
+  .card {
+    border-bottom: 60px solid yellow;
+  }
+  .new
+  {
+    display: none;
+  }
+  
+  
+}
